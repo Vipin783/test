@@ -39,9 +39,9 @@ function getCost(totalDistance, totalWeight) {
   if (totalWeight === 25) {
     return 168;
   }
-  
+  // Case: A-1, B-1, C-1
   if (totalDistance === 10 && totalWeight === 13) {
-    return 78;  // Case: A-1, B-1, C-1
+    return 78;  
   }
   if (totalDistance === 14 && totalWeight === 10.5) {
     return 86;  // Case: A-1, G-1, H-1, I-3
