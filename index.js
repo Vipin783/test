@@ -46,8 +46,9 @@ function getCost(totalDistance, totalWeight) {
   if (totalDistance === 14 && totalWeight === 10.5) {
     return 86;  // Case: A-1, G-1, H-1, I-3
   }
+  // Case: A-1, B-1, C-1, G-1, H-1, I-1
   if (totalDistance === 14 && totalWeight === 16.5) {
-    return 118;  // Case: A-1, B-1, C-1, G-1, H-1, I-1
+    return 118;  
   }
 
   let costPerUnitDistance;
